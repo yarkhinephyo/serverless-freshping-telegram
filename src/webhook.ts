@@ -16,7 +16,7 @@ import {
 const webhook: Handler = async (
   event: WebhookEvent, _context: Context, callback: Callback
 ) => {
-  console.log(event);
+  // console.log(event);
   const {
     body,
     pathParameters: {
@@ -34,7 +34,7 @@ const webhook: Handler = async (
   } = parseWebhookBody(body);
 
   const time = new Date(request_start_time).toLocaleTimeString();
-  const message = `State changed to: ${check_state_name}\nName: ${check_name}\nURL:${request_url}\nTest time: ${time}`;
+  const message = `State changed to: ${check_state_name}\nName: ${check_name}\n URL:${request_url}\nTest time: ${time}`;
   await sendMessage(chat_id, message);
 
   callback(null, {
