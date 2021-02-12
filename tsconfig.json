@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "removeComments": true,
+    "allowJs": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "target": "esnext",
+  },
+  "exclude": ["node_modules"]
+}

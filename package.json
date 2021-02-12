@@ -1,0 +1,26 @@
+{
+  "name": "serverless-freshping-telegram",
+  "description": "",
+  "author": "yarkhinephyo",
+  "version": "0.1.0",
+  "dependencies": {
+    "@middy/core": "^1.4.0",
+    "@middy/http-cors": "^1.4.0",
+    "@middy/http-error-handler": "^1.4.0",
+    "@middy/http-json-body-parser": "^1.5.0",
+    "@middy/http-security-headers": "^1.5.2",
+    "@middy/validator": "^1.4.0",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/http-errors": "^1.8.0",
+    "axios": "^0.21.1",
+    "http-errors": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.61",
+    "eslint": "^7.7.0",
+    "serverless": "^2.8.0",
+    "serverless-domain-manager": "^4.2.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.9.7"
+  }
+}

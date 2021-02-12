@@ -1,0 +1,32 @@
+app: freshping-telegram
+service:
+  name: freshping-telegram
+
+provider:
+  name: aws
+  stage: dev
+  region: ap-southeast-1
+  runtime: nodejs12.x
+  logRetentionInDays: 30
+  environment:
+    BOT_TOKEN: "${opt:botToken}"
+
+functions:
+  webhook:
+    handler: src/webhook.handler
+    events:
+      - http:
+          path: /{chat_id}
+          method: post
+          cors: true
+
+plugins:
+  - serverless-plugin-typescript
+  # - serverless-domain-manager
+
+custom:
+  # customDomain:
+  #   basePath: "freshping"
+  #   domainName: ""
+  #   certificateArn: ""
+  #   createRoute53Record: true
