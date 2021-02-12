@@ -14,7 +14,7 @@ Serverless solution for freshping-telegram integration. Creates a telegram bot t
 3. Ensure [AWS credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) are set up on your computer for Serverless to work
 4. Clone this repo: `git clone https://github.com/yarkhinephyo/serverless-freshping-telegram.git`
 5. Install Dependencies: `npm i`
-6. Deploy the webhook: `sls deploy --aws-profile admin --botToken <Telegram bot token>`
+6. Deploy the webhook: `sls deploy --botToken <Telegram bot token>`
 (URL will look like: https://xxxxxxxxxx.execute-api.ap-southeast-1.amazonaws.com/dev/{chat_id})
 7. Add webhook URL on Freshping
 Freshping > Setting > Integrations > Webhook
