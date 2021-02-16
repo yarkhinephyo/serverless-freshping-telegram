@@ -36,7 +36,7 @@ const webhook: Handler = async (
   } = parseWebhookBody(body);
 
   const time = new Date(request_start_time).toLocaleTimeString();
-  const message = `State changed to: ${check_state_name}\nName: ${check_name}\n URL:${request_url}\nTest time: ${time}`;
+  const message = `State changed to: ${check_state_name}\nName: ${check_name}\nURL: ${request_url}\nUTC Test time: ${time}`;
   await sendMessage(chat_id, message);
 
   callback(null, {
