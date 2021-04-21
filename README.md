@@ -4,6 +4,8 @@ serverless-freshping-telegram
 ![GitHub](https://img.shields.io/github/license/yarkhinephyo/serverless-freshping-telegram?style=flat-square)
 
 Serverless solution for freshping-telegram integration. Creates a telegram bot that notifies a group when the server status changes (Available/ Not Responding) that is hosted with AWS Lambda.
+
+![Alt desc](https://raw.githubusercontent.com/yarkhinephyo/serverless-freshping-telegram/main/docs/Screenshot_1.jpg)
   
 ### Integrate In Four Steps
 1. Add `@esm_wonderful_bot` to the telegram group
