@@ -23,14 +23,8 @@ functions:
 plugins:
   - serverless-plugin-typescript
   - serverless-api-gateway-throttling
-  # - serverless-domain-manager
 
 custom:
   apiGatewayThrottling:
     maxRequestsPerSecond: 30
     maxConcurrentRequests: 5
-  # customDomain:
-  #   basePath: "freshping"
-  #   domainName: ""
-  #   certificateArn: ""
-  #   createRoute53Record: true
