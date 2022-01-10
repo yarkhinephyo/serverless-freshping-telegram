@@ -10,13 +10,12 @@
     "@middy/http-json-body-parser": "^1.5.0",
     "@middy/http-security-headers": "^1.5.2",
     "@middy/validator": "^1.4.0",
-    "@types/aws-sdk": "^2.7.0",
-    "@types/http-errors": "^1.8.0",
     "axios": "^0.21.1",
     "http-errors": "^1.8.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.61",
+    "@types/http-errors": "^1.8.1",
     "eslint": "^7.7.0",
     "serverless": "^2.8.0",
     "serverless-api-gateway-throttling": "^1.1.0",

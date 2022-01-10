@@ -1,6 +1,5 @@
 app: freshping-telegram
-service:
-  name: freshping-telegram
+service: freshping-telegram
 
 provider:
   name: aws
