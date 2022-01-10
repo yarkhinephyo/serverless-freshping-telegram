@@ -7,7 +7,7 @@ Serverless solution for freshping-telegram integration. Creates a telegram bot t
 
 ![Alt desc](https://raw.githubusercontent.com/yarkhinephyo/serverless-freshping-telegram/main/docs/Screenshot_1.jpg)
   
-### Integrate In Four Steps
+### Telegram Bot Integration Guide
 1. Add `@esm_wonderful_bot` to the telegram group
 2. Add `@getidsbot` to the telegram group to get group chat ID
 3. Go to Freshping Dashboard > Setting > Integrations > Webhook > Create Integration
@@ -19,7 +19,7 @@ Example: If group chat ID is -100123456, paste
 
 <hr/>
 
-### Custom Setup
+### (Optional) Custom Webhook Deployment
 
 1. Ensure you have a [Freshping account](https://www.freshworks.com/website-monitoring/)
 2.  [Create a Telegram Bot](https://core.telegram.org/bots#6-botfather) with @BotFather and save the bot token
